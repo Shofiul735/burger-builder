@@ -1,0 +1,13 @@
+.DrawerToggle{
+    height: 25px;
+    width: 30px;
+}
+.DrawerToggle hr{
+    color: white;
+    background: white;
+}
+@media(min-width:500px){
+    .DrawerToggle{
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.NavigationItem{
+    display: inline-block;
+}
+.NavigationItem a{
+    text-decoration: none;
+    color: wheat;
+    padding: 10px 16px;
+    background: transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all .4s;
+    backface-visibility: hidden;
+    will-change: background;
+}
+.NavigationItem a:hover{
+    border-bottom: 2px solid powderblue;
+    background-color: rgb(196, 110, 84);
+}
+@media(max-width:499px){
+    .NavigationItem{
+        float: left;
+        margin-bottom: 10px;
+    }
+    .NavigationItem a{
+        color:rgb(196, 110, 84);
+    }
+    .NavigationItem a:hover{
+        border-bottom: 2px solid powderblue;
+        background-color: brown;
+        color: white;
+    }
+}
